@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const techStack = ["React", "Node.js", "MongoDB", "Express", "Firebase"];
 const resumePath =
-  "https://drive.google.com/uc?export=download&id=1IEYJ6qBK5xczKsMCtbGFPSs27STrxMNd";
+  "https://drive.google.com/file/d/1c_r1QaPhgJtaR9KNs3RnF33qdMHUw7LG/view";
 
 const topBadges = [
   { label: "Open to Opportunities", featured: true },
