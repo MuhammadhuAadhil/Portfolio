@@ -112,7 +112,7 @@ function Home() {
           Hi, I&apos;m{" "}
           <span className="relative whitespace-nowrap">
             <span className="bg-gradient-to-b from-white to-blue-400 bg-clip-text text-transparent">
-              <span className="text-[clamp(2.35rem,11vw,4.5rem)] sm:text-inherit">
+              <span className="block text-[clamp(1.9rem,9vw,3rem)] leading-tight sm:inline sm:text-inherit sm:leading-[inherit]">
                 Muhammadhu Aadhil
               </span>
             </span>
