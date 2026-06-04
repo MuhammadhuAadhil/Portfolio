@@ -41,7 +41,7 @@ const projects = [
       "Designed a responsive and visually engaging interface using React.js and Tailwind CSS.",
     ],
     techStack: ["React.js", "Tailwind CSS", "Axios", "TMDB API"],
-    liveDemo: "https://lnkd.in/gAz_KFrJ",
+    liveDemo: "https://movie-app-psi-six-77.vercel.app/",
     viewCode: "https://github.com/MuhammadhuAadhil/Movie-App",
   },
 ];

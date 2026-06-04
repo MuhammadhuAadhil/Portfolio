@@ -106,15 +106,16 @@ function Home() {
 
         {/* Heading */}
         <h1
-          className="animate-fade-up mt-10 text-[clamp(2.4rem,7vw,5rem)] font-bold leading-[1.08] text-white"
+          className="animate-fade-up mt-10 font-bold leading-[1.08] text-white"
           style={{ animationDelay: "270ms" }}
         >
-          Hi, I&apos;m{" "}
-          <span className="relative whitespace-nowrap">
-            <span className="bg-gradient-to-b from-white to-blue-400 bg-clip-text text-transparent">
-              <span className="block text-[clamp(1.9rem,9vw,3rem)] leading-tight sm:inline sm:text-inherit sm:leading-[inherit]">
-                Muhammadhu Aadhil
-              </span>
+          {/* "Hi, I'm" line — stays large */}
+          <span className="block text-[clamp(2rem,6vw,4rem)]">Hi, I&apos;m</span>
+
+          {/* Name line — shrinks aggressively on mobile so it never clips */}
+          <span className="relative mt-1 block whitespace-nowrap">
+            <span className="bg-gradient-to-b from-white to-blue-400 bg-clip-text text-transparent text-[clamp(1.35rem,7.5vw,5rem)]">
+              Muhammadhu Aadhil
             </span>
             {/* underline glow */}
             <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-500/70 to-transparent" />
