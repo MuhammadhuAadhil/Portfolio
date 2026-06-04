@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const techStack = ["React", "Node.js", "MongoDB", "Express", "Firebase"];
 const resumePath =
-  "https://drive.google.com/uc?export=download&id=1c_r1QaPhgJtaR9KNs3RnF33qdMHUw7LG";
+  "https://drive.google.com/uc?export=download&id=1iaVYNBjBlvYB1tEy_kQvnFb3SDlB3oUa";
 
 const topBadges = [
   { label: "Open to Opportunities", featured: true },
@@ -112,7 +112,9 @@ function Home() {
           Hi, I&apos;m{" "}
           <span className="relative whitespace-nowrap">
             <span className="bg-gradient-to-b from-white to-blue-400 bg-clip-text text-transparent">
-              Muhammadhu Aadhil
+              <span className="text-[clamp(2.35rem,11vw,4.5rem)] sm:text-inherit">
+                Muhammadhu Aadhil
+              </span>
             </span>
             {/* underline glow */}
             <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-500/70 to-transparent" />
